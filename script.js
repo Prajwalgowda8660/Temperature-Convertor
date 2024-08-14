@@ -4,7 +4,7 @@ const calcTemp = () => {
     console.log("Entered temperature : ", numberTemp, givenScale);
 
     const tempSelected = document.getElementById('tempscale').value;
-
+    
     let result = 'To be determined...';
 
     if (givenScale == 'Choose scale') alert('Please enter the scale for the entered value😶');
